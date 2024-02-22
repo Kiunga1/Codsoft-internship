@@ -72,7 +72,7 @@ button.del {
 }
 
 .operator {
-    background-color: hsl(225, 21%, 49%); /* Desaturated dark blue (key background) */
+    background-color: hsl(225, 21%, 49%); 
     color: hsl(0, 0%, 100%);
 }
 
