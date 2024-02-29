@@ -6,7 +6,6 @@ const addToDisplay = (value) => {
     if (value === 'Del') {
         display.value = display.value.slice(0, -1); // Remove the last character
     } else if (value === 'X') {
-        
         display.value += '*'; // Replace 'X' with '*'
     } else {
         display.value += value; //Append value to display
