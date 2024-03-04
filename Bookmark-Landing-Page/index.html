@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,600;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  
+  <title>Bookmark landing page</title>
+</head>
+<body>
+  <div class="container">
+    <!-- The header section -->
+    <header class="header">
+      <div class="header-container">
+        <!-- Site logo -->
+        <div class="site-logo">
+          <img src="./images/logo-bookmark.svg" alt="logo">
+        </div>
+     
+        <!-- nav -->
+        <nav class="nav">
+          <ul class="nav_list">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#login" class="btn">Login</a></li>
+          </ul>
+        </nav>
+
+        <!-- menu icon -->
+        <div class="menu-icon">
+          <img onclick="showOverlay()" src="./images//icon-menu.svg" alt="menu icon">
+        </div>
+     </div>
+
+     <div id="overlay">
+      <div class="overlay-container">
+        <!-- Overlay logo and close icon -->
+      <div class="overlay-site-logo">
+        <img src="./images/overlay-logo.png" alt="logo">
+        <img onclick="hideOverlay()" src="./images/icon-close.svg" alt="">
+      </div>
+   
+      <!-- nav -->
+      <nav class="overlay-nav">
+        <ul class="nav-list">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#login" class="btn">Login</a></li>
+        </ul>
+      </nav>
+      </div>
+      
+     </div>
+    </header>
+
+    <section class="hero">
+        <div class="img_container">
+            
+        </div>
+        <div class="hero_container">
+            <h1>A Simple Bookmark Manager</h1>
+            <p>A clean and simple interface to organize your favourite websites. Open a new 
+            browser tab and see your sites load instantly. Try it for free.</p>
+            <button>Get it on Chrome</button>
+            <button>Get it on Firefox</button>
+        </div>
+    </section>
+
+    <section class="features_container" id="Features">
+        <h2>Features</h2>
+        <p>Our aim is to make it quick and easy for you to access your favourite websites. 
+        Your bookmarks sync between your devices so you can access them on the go.</p>
+
+        <ul>
+            <li>Simple Bookmarking</li>
+            <li>Speedy Searching</li>
+            <li>Easy Sharing</li>
+        </ul>
+
+        <h3>Bookmark in one click</h3>
+        <p>Organize your bookmarks however you like. Our simple drag-and-drop interface 
+        gives you complete control over how you manage your favourite sites.</p>
+        <button>More Info</button>
+
+        <h3>Intelligent search</h3>
+        <p>Our powerful search feature will help you find saved sites in no time at all. 
+        No need to trawl through all of your bookmarks.</p>
+        <button>More Info</button>
+
+        <h3>Share your bookmarks</h3>
+        <p>Easily share your bookmarks and collections with others. Create a shareable 
+        link that you can send at the click of a button.</p>
+        <button>More Info</button>
+    </section>
+
+    <section class="">
+        <h2>Download the extension</h2>
+        <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+        got a favourite you’d like us to prioritize.</p>
+
+        <h3>Add to Chrome</h3>
+        <span>Minimum version 62</span>
+        <button>Add & Install Extension</button>
+
+        <h3>Add to Firefox</h3>
+        <span>Minimum version 55</span>
+        <button>Add & Install Extension</button>
+
+        <h3>Add to Opera</h3>
+        <span>Minimum version 46</span>
+        <button>Add & Install Extension</button>
+    </section>
+
+    <section class="questions">
+        <h2>Frequently Asked Questions</h2>
+        <p>Here are some of our FAQs. If you have any other questions you’d like 
+        answered please feel free to email us.</p>
+
+        <!-- Question 1 -->
+        <h5>What is Bookmark?</h5>
+        <!-- Answer 1 -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+        justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+        </p>
+        <!-- Question 2 -->
+        <h5>How can I request a new browser?</h5>
+        <!-- Answer 2 -->
+        <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+        Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+        ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+        Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+        <!-- Question 3 -->
+        <h5>Is there a mobile app?</h5>
+        <!-- Answer 3 -->
+        <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+        urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+        sollicitudin ex et ultricies bibendum.</p>
+        <!-- Question 4 -->
+        <h5>What about other Chromium browsers?</h5>
+        <!-- Answer 4 -->
+        <p>Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+        vitae neque eget nisl gravida pellentesque non ut velit.</p>
+        <button>More Info</button>
+    </section>
+    <section class="contacts">
+      <h4>35,000+ already joined</h4>
+      <h5>Stay up-to-date with what we’re doing</h5>
+      <div class="email_contact">
+        <input type="email" value="email" placeholder="Enter your email" id="email">
+        <button>Contact Us</button>
+      </div>
+    </section>
+
+    <footer>
+      <img src="./images/footer-logo.png" alt="footer logo">
+      <ul class="footer_nav">
+        <li class="nav_item">Features</li>
+        <li class="nav_item">Pricing</li>
+        <li class="nav_item">Contact</li>
+      </ul>
+      <div class="icons">
+
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="/js/script.js"></script>
+    
+</body>
+</html>
