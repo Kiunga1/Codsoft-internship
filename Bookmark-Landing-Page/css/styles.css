@@ -31,7 +31,7 @@ body {
 }
 
 .header-container {
-    width: 84%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -212,7 +212,7 @@ li {
 @media (min-width: 899px) {
     .hero {
         flex-direction: row-reverse;
-        height: 400px;
+        height: 500px;
         width: 90%;
         text-align: left;
     }
@@ -224,5 +224,110 @@ li {
     .hero-container h1 {
         font-size: 2.5rem; 
     }
+
+    .hero-container {
+        padding:  0 20px;
+    }
 }
 
+/* Features */
+.features_container {
+    padding: 40px 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-headline{
+    max-width: 530px;
+}
+
+.features_container h2 {
+    font-size: 2rem;
+    color: #242A45;
+    margin-bottom: 20px;
+}
+
+.features_container p {
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+#Features li {
+    padding: 20px;
+    color: #666;
+}
+
+#Features li:hover {
+    color: #000;
+}
+.custom-hr {
+    width: 100%;
+    margin: 0 auto; 
+    margin-top: 10px;
+}
+
+.custom-hr:hover {
+    border: 1px solid red;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.feature-btn {
+    background-color: #5267DF;
+    border: 1px solid #5267DF;
+    align-self: left;
+}
+
+/* .feature-img {
+    background-image: url('/images/feature-background-img.png');
+} */
+
+.feature-img img {
+    width: 315px;
+}
+
+/*for desktop*/
+@media (min-width: 899px) {
+    #Features {
+        padding:  0 40px;
+    }
+    #Features ul {
+        display: flex;
+    }
+
+    .feature-img img {
+        max-width: 520px;
+    }
+
+    .feature {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .feature-content {
+        width: 50%;
+        text-align: left;
+    }
+
+    #one {
+        display: none;
+    }
+}
