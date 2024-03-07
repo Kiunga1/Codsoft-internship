@@ -270,6 +270,7 @@ h3{
     color: #666;
     font-weight: 100;
     margin-bottom: 50px;
+    font-family: 'Rubik' 'sans-serif';
 }
 
 .hidden {
@@ -419,7 +420,7 @@ h4 {
     width: 100%;
     height: 0;
     border-top: 3px dotted #b0bbf9;
-    border-spacing: 10px;
+    border-spacing: 4px;
 }
 
 .extension-btn {
@@ -431,8 +432,7 @@ h4 {
     .extension-list {
         display: flex;
         padding: 10px;
-        /* grid-template-columns: 1fr 1fr 1fr; */
-        gap: 30px;
+        gap: 20px;
     }
 
     .extension {
@@ -445,7 +445,7 @@ h4 {
     }
 
     .extension:nth-child(1) {
-        top: 0; /* Position the first item at the top */
+        top: 0; 
     }
     
     .extension:nth-child(2) {
@@ -456,6 +456,120 @@ h4 {
         margin-top: 120px;
     }
 
-   
 }
 
+/*Questions section */
+.more-info {
+    margin: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.more-info p {
+    font-size: 18px;
+    color: #666;
+    padding-bottom: 20px;
+    font-family: 'Rubik' 'sans-serif';
+}
+
+.questions {
+    text-align: left;
+    padding: 40px 0;
+}
+
+.questions-container {
+    max-width: 540px;
+}
+
+.answer {
+    display: none;
+}
+
+.question {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0; 
+}
+
+#quiz-one {
+    border-top: 1px solid #ccc;
+}
+
+.question-title {
+    cursor: pointer;
+}
+
+.question-title,
+.answer,
+h4, 
+h5  {
+    padding: 10px 0;
+    font-family: 'Rubik' 'sans-serif';
+}
+
+/* Contact section */
+.contacts {
+    background-color: #5267DF;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contacts .contact-container h4 {
+    letter-spacing: 5px;
+    font-weight: 200px;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.contacts .contact-container h5 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.contact-container .email-contact input[type="email"] {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid #FA5959;
+    background-color: #fff;
+    color: #242A45;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.email-contact {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*for desktop*/
+@media (min-width: 1024px) {
+    .email-contact {
+        flex-direction: row;
+    }
+
+    .contacts .contact-container h4 {
+        letter-spacing: 6px;
+        font-size: 13px;
+    }
+    
+    .contacts .contact-container h5 {
+        font-size: 32px;
+    }
+}
