@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import HeroImage from '../../public/assets/hero-img.jpeg'
 
