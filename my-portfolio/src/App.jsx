@@ -1,10 +1,11 @@
-import React from 'react'
+
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import SkillsSection from './components/SkillsSection';
 import ProjectsSection from './components/ProjectsSection';
 import Footer from './components/Footer';
+import ContactSection from './components/ContactSection';
 
 const App = () => {
   return (
@@ -16,8 +17,8 @@ const App = () => {
       </div>
       <SkillsSection/>
       <ProjectsSection/>
+      <ContactSection/>
       <Footer/>
-
     </div>
   )
 }
