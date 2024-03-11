@@ -8,8 +8,8 @@ const ProjectCard = ({ imageUrl, title, skills, projectUrl, codeUrl }) => {
         <img src={imageUrl} alt={title} className="w-full h-auto mb-4" />
         <div className="h-auto absolute inset-0 bg-black opacity-0 hover:opacity-50 flex justify-center items-center">
           <div className="text-white text-center">
-            <p className="mb-2"><a href={projectUrl} className="underline text-white hover:border-b hover:border-white">View Project</a></p>
-            <p><a href={codeUrl} className="underline text-white hover:border-b hover:border-white">View Code</a></p>
+            <p className="mb-2"><a href={projectUrl} className="underline text-white hover:text-blue-400 hover:border-b hover:border-blue-400">View Project</a></p>
+            <p><a href={codeUrl} className="underline text-white hover:text-blue-400 hover:border-b hover:border-blue-400">View Code</a></p>
           </div>
         </div>
         <h3 className="text-xl font-semibold mb-2">{title}</h3>

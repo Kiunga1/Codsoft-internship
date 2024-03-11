@@ -41,6 +41,7 @@ const ContactSection = () => {
             <p className="text-gray-700 mb-6" style={{ maxWidth: '420px' }}>
               I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.
             </p>
+            <p className="text-gray-700 ">Or email me at <a href="mailto:amukami15@gmail.com" className="hover:text-blue-400 border-b-2 border-blue-400">amukami15@gmail.com</a></p>
           </div>
           <div className="lg:w-1/2">
             <form onSubmit={handleSubmit}>
