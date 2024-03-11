@@ -3,6 +3,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import SkillsSection from './components/SkillsSection';
+import ProjectsSection from './components/ProjectsSection';
 
 const App = () => {
   return (
@@ -13,6 +14,8 @@ const App = () => {
         <hr className="section-divider" />
       </div>
       <SkillsSection/>
+      <ProjectsSection/>
+
     </div>
   )
 }
