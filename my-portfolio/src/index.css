@@ -6,3 +6,7 @@
   text-decoration: underline;
   text-decoration-color: #4299e1; 
 }
+
+.section-divider {
+  border-bottom: 1px solid #252525; 
+}
