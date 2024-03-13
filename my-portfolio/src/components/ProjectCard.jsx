@@ -5,7 +5,7 @@ const ProjectCard = ({ imageUrl, title, skills, projectUrl, codeUrl }) => {
   return (
     <div className="relative">
       <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden p-2">
-        <img src={imageUrl} alt={title} className="w-full h-auto mb-4" />
+        <img src={imageUrl} alt={title} className="w-full h-72 mb-4" />
         <div className="h-auto absolute inset-0 bg-black opacity-0 hover:opacity-50 flex justify-center items-center">
           <div className="text-white text-center">
             <p className="mb-2"><a href={projectUrl} className="underline text-white hover:text-blue-400 hover:border-b hover:border-blue-400">View Project</a></p>
