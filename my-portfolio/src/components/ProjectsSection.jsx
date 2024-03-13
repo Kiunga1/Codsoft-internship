@@ -58,7 +58,7 @@ const ProjectsSection = () => {
       title: 'Boookmark Landing Page',
       skills: ['HTML', 'CSS', 'JavaScript'],
       projectUrl: 'https://bookmark-landing-page-pearl-two.vercel.app/',
-      codeUrl: 'https://github.com/Kiunga1/Codsoft-internship/tree/main/Bookmark-Landing-Page'
+      codeUrl: 'https://github.com/Kiunga1/codsoft_-/tree/main/Bookmark-Landing-Page'
     }
     
   ];
