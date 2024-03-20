@@ -22,7 +22,7 @@ const ProjectsSection = () => {
       imageUrl: 'public/assets/audiophile-ecommerce-project.webp',
       title: 'Audiophile E-commerce Website',
       skills: ['React', 'CSS', 'JavaScript'],
-      projectUrl: 'https://audiophile-ecommerce-website-oxfio9nqe-anns-projects-58b329f7.vercel.app/',
+      projectUrl: 'https://audiophile-ecommerce-website-cu5724u1q-anns-projects-58b329f7.vercel.app/',
       codeUrl: 'https://github.com/Kiunga1/audiophile-ecommerce-website'
     },
     {
@@ -58,15 +58,20 @@ const ProjectsSection = () => {
       title: 'Boookmark Landing Page',
       skills: ['HTML', 'CSS', 'JavaScript'],
       projectUrl: 'https://bookmark-landing-page-pearl-two.vercel.app/',
-      codeUrl: 'https://github.com/Kiunga1/codsoft_-/tree/main/Bookmark-Landing-Page'
+      codeUrl: 'https://github.com/Kiunga1/Codsoft-internship/tree/main/Bookmark-Landing-Page'
     }
     
   ];
   return (
-    <section className="py-16 bg-gray-200">
+    <section className="py-16 bg-black">
     <div className="container mx-auto px-4">
-      <h2 className="text-2xl font-bold mb-4">Projects</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+      <div className='flex justify-between'>
+        <h2 className="text-3xl font-bold mb-4 text-white">Projects</h2>
+        <p >
+          <a href="#contact" className=" hover:text-blue-500 border-b-2 border-blue-500 transition-colors text-white text-xl font-semibold">CONTACT ME</a>
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}

@@ -9,13 +9,16 @@ import ContactSection from './components/ContactSection';
 
 const App = () => {
   return (
-    <div className='min-h-screen bg-gray-300'>
+    <div className='min-h-screen bg-black'>
       <Header/>
       <HeroSection/>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 py-4">
         <hr className="section-divider" />
       </div>
       <SkillsSection/>
+      <div className="container mx-auto px-4 py-4">
+        <hr className="section-divider" />
+      </div>
       <ProjectsSection/>
       <ContactSection/>
       <Footer/>
